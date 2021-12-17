@@ -23,17 +23,19 @@
 
  
 
-nb = int(input('entrer un nombre :   ' ))
+nb = int(input('entrer un nombre : ' ))
 
 cpt = 0
 liste1 = []
+resultat = ' '
 for i in range (1,nb+1):
     if(nb % i ==0):
         cpt = cpt + 1
         liste1.append(i)
+        resultat = resultat + str(i)+' '
 if(cpt == 2):
     print("votre nombre",nb,"est premier")
 else:
     print("votre nombre",nb,"n'est pas premier")
-    print("voici les diviseur de ",nb," :",liste1, )
+    print("voici les diviseur de ",nb," :",resultat, )
 
