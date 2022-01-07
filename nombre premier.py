@@ -11,7 +11,7 @@
 #        si (nb % i = o ) alors
 #           compteur <- compteur + 1
 #        fin si
-##fin pour 
+#fin pour 
 #si (compteur = 2) alors
 #    afficher ("votre nombre ",nb," est premier.")
 #fin si
